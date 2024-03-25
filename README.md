@@ -2,6 +2,8 @@
 
 This template creates PowerBI dashboard for [VNET Flow Logs](https://learn.microsoft.com/en-us/azure/network-watcher/vnet-flow-logs-overview). It retrieves logs from in from blob storage, flattens the data through Power Query and visualizes the information on a dashboard. The dashboard can be customized to fit specific needs as all Flow Log fields are available in the PowerBi Data pane.
 
+![image](images/sample-dashboard-1.png)
+
 This template is derived from the dashboard for NSG Flow Logs [Visualizing Network Security Group flow logs with Power BI](https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-visualize-nsg-flow-logs-power-bi).
 
 ## Installation
@@ -11,11 +13,16 @@ This template is derived from the dashboard for NSG Flow Logs [Visualizing Netwo
 3) Double click the template file. PowerBI desktop will open and load the template
 4) Enter the name of the storage account where VNET Flow Logs are stored. 
 Enter only the account name, not the full URL.
+
 ![image](images/select-storage.png)
+
 5) Enter the number of PT1H.json files to load.
 VNET Flow Logs creates one file each hour for each NIC that it logs from. Multiply the count of NICs in the environment by the number hours to look back.
+
 ![image](images/select-number-of-files.png).
+
 6) Enter the storage account key.
+
 ![image](images/enter-storage-account-key.png)
 
 PowerBI will now load the data.
