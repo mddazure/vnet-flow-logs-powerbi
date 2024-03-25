@@ -1,6 +1,8 @@
 # **PowerBI Dashboard template for VNET Flow Logs**
 
-This template creates PowerBI dashboard for [VNET Flow Logs](https://learn.microsoft.com/en-us/azure/network-watcher/vnet-flow-logs-overview). It retrieves logs from in from blob storage, flattens the data through Power Query and visualizes the information on a dashboard. The dashboard can be customized to fit specific needs as all Flow Log fields are available in the PowerBI Data pane.
+This template creates a PowerBI dashboard for [VNET Flow Logs](https://learn.microsoft.com/en-us/azure/network-watcher/vnet-flow-logs-overview). It retrieves logs from blob storage, flattens the data through Power Query and visualizes the information on a dashboard.
+
+The dashboard can be customized to fit specific needs, as all Flow Log fields are available in the PowerBI Data pane.
 
 ![image](images/sample-dashboard-1.png)
 
