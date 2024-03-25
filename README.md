@@ -37,6 +37,8 @@ This happens when a PT1H.json file is appended while the data is being loaded.
 
 This is remediated by disabling the Flow Logs before loading data into PowerBI. In the Azure portal, navigate to the Flow logs blade under Network Watcher.
 
+![image](/images/flow-logs.png)
+
 If Traffic Analytics is enabled for the Flows Logs, this needs to be disabled first. Click each Flow Log, uncheck Enable Traffic Analytics and Save.
 
 ![image](images/disable-ta.png)
