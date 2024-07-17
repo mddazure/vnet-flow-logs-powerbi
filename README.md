@@ -11,7 +11,7 @@ This template is derived from the dashboard for NSG Flow Logs [Visualizing Netwo
 ## Installation
 
 1) Install [PowerBI Desktop](https://powerbi.microsoft.com/en-us/downloads/).
-2) Download and save [PowerBI_VNETFlowLogs_Storage_Template.pbit](https://github.com/mddazure/vnet-flow-logs-powerbi/raw/main/PowerBI_VNETFlowLogs_Storage_Template.pbit) locally.
+2) Download and save [PowerBI_VNETFlowLogs_Storage_Template_public.pbit](https://github.com/mddazure/vnet-flow-logs-powerbi/raw/main/PowerBI_VNETFlowLogs_Storage_Template.pbit) locally.
 3) Double click the template file. PowerBI desktop will open and load the template.
 4) Enter the name of the storage account where VNET Flow Logs are stored. 
 Enter only the account name, not the full URL.
